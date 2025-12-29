@@ -13,11 +13,11 @@ class Program
         while (true)
         {
             Console.WriteLine("\n\noxo\n");
-            Console.WriteLine($"{a1}|{a2}|{a3}");
+            Console.WriteLine(a1 + "|" + a2 + "|" + a3);
             Console.WriteLine("-----");
-            Console.WriteLine($"{a4}|{a5}|{a6}");
+            Console.WriteLine(a4 + "|" + a5 + "|" + a6);
             Console.WriteLine("-----");
-            Console.WriteLine($"{a7}|{a8}|{a9}");
+            Console.WriteLine(a7 + "|" + a8 + "|" + a9);
             
             Console.Write("where to place what?\n0 to quit\n> ");
             
